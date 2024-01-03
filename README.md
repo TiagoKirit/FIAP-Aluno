@@ -4,10 +4,11 @@ Este projeto foi criado com o intuíto de aprendizagem. Logo, podem haver erros,
 
 ## 🚀 Começando
 
-Este projeto consistem um uma API CRUD, ou seja, que proporciona: Criar, Consultar, Alterar e Deletar registros em uma base de dados.
+
+Este projeto consistem um uma API CRUD, ou seja, ele proporciona: Criar, Consultar, Alterar e Deletar registros em uma base de dados.
 
 ### 🌎 Composição do projeto
-O projeto foi criado utilizando os seguintes recursos:
+O projeto foi criado utilizando os seguintes recursos / ferramentas:
  - Spring Framework com as seguintes dependências:
    - Spring Data JPA
    - Spring Web
@@ -16,32 +17,19 @@ O projeto foi criado utilizando os seguintes recursos:
  - Docker (subir e gerenciar imagem/container do Postgre)
  - Postgre (banco de dados)
 
-### 📋 Pré-requisitos
+### 📋 Como executar o projeto:
 
 Para que seja possível a execução do projeto em ambiente local, é necessário:
- 1 Instalar o Docker
+
+#### 🔧 Instalar o Docker
+```
+1° - Passos para instalar o Docker
+2° - 
+3° - 
 
 ```
-Dar exemplos
-```
 
-### 🔧 Instalação
 
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-
-Diga como essa etapa será:
-
-```
-Dar exemplos
-```
-
-E repita:
-
-```
-Até finalizar
-```
-
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
 
 ## ⚙️ Executando os testes
 
@@ -105,4 +93,4 @@ Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE.md](h
 
 
 ---
-⌨️ com ❤️ por [Armstrong Lohãns](https://gist.github.com/lohhans) 😊
+Por: Tiago Kiritschenko Maffi
