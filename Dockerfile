@@ -29,4 +29,4 @@ EXPOSE 8080
 #ENV SPRING_DATASOURCE_PASSWORD=102030
 
 # Aguardando o PostgreSQL iniciar antes de iniciar a aplicação
-CMD ["sh", "-c", "while ! nc -z postgres 5432; do sleep 1; done && java -jar app.jar"]
+CMD ["java -jar app.jar"]
