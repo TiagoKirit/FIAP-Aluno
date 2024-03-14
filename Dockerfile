@@ -24,9 +24,9 @@ COPY --from=build /app/target/Aluno-0.0.1-SNAPSHOT.jar ./app.jar
 EXPOSE 8080
 
 # Configurando a aplicação para usar o PostgreSQL
-ENV SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/postgres
-ENV SPRING_DATASOURCE_USERNAME=postgres
-ENV SPRING_DATASOURCE_PASSWORD=102030
+#ENV SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/postgres
+#ENV SPRING_DATASOURCE_USERNAME=postgres
+#ENV SPRING_DATASOURCE_PASSWORD=102030
 
 # Aguardando o PostgreSQL iniciar antes de iniciar a aplicação
 CMD ["sh", "-c", "while ! nc -z postgres 5432; do sleep 1; done && java -jar app.jar"]
