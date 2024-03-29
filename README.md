@@ -74,9 +74,5 @@ URL: http://localhost:8080/api/v1/aluno/delete/1
 ------------------------------------------------------
 ```
 
-
-## ⚙️ Projeto em andamento
-### Ainda farei atualizções aqui
-
 ---
 Por: Tiago Kiritschenko Maffi
